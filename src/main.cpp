@@ -60,23 +60,26 @@ public:
         vidas--;
     }
 
-    void pintar() {
-        gotoxy(x, y);
-        cout << "  ^  ";
-        gotoxy(x, y + 1);
-        cout << " (O) ";
-        gotoxy(x, y + 2);
-        cout << "^^^^ ";
-    }
+     void pintar() {
+     gotoxy(x, y);
+     cout << "  /\\  ";
+     gotoxy(x, y + 1);
+     cout << " |OO| ";
+     gotoxy(x, y + 2);
+     cout << " /^^\\ ";
+}
 
-    void borrar() {
-        gotoxy(x, y);
-        cout << "     ";
-        gotoxy(x, y + 1);
-        cout << "     ";
-        gotoxy(x, y + 2);
-        cout << "     ";
-    }
+   
+     void borrar() {
+     gotoxy(x, y);
+     cout << "      ";
+     gotoxy(x, y + 1);
+     cout << "      ";
+     gotoxy(x, y + 2);
+     cout << "      ";
+}
+
+
 
     void mover(char tecla) {
         borrar();
