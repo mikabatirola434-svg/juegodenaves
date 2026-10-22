@@ -1,0 +1,14 @@
+# Normalización de finales de línea
+* text=auto
+
+# Archivos de código C++
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# Archivos Markdown y documentación
+*.md text eol=lf
+
+# Archivos de configuración
+*.json text eol=lf
+*.txt text eol=lf
