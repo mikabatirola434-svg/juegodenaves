@@ -50,6 +50,7 @@ Después, iniciar el juego con:
 
 ```text
 juegodenaves/
+├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
