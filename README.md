@@ -6,6 +6,7 @@
 **Autora:** Mikaela Batirola  
 **Versión:** v1.0.0
 
+
 ##  Descripción
 
 Este proyecto consiste en desarrollar un juego de combate espacial en consola utilizando C++. El jugador controla una nave, se mueve por la pantalla y dispara para destruir asteroides mientras intenta conservar sus vidas.
